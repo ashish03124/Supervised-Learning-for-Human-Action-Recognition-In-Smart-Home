@@ -1,0 +1,93 @@
+# Supervised Learning for Human Activity Recognition in Smart Homes
+
+This project focuses on using supervised learning algorithms to detect and classify human activities within a smart home environment using sensor data. The aim is to make homes intelligent, responsive, energy-efficient, and safe by understanding occupant behavior.
+
+---
+
+## Objective
+
+To develop a machine learning model that accurately recognizes various human activities (e.g., sleeping, cooking, watching TV) using labeled sensor data, enabling context-aware smart home automation and monitoring.
+
+---
+
+## Why Human Activity Recognition?
+
+- Energy Efficiency – Turn off unused appliances based on activity
+- Elderly Care – Detect unusual inactivity, falls, or health anomalies
+- Safety – Automated alerts for emergencies
+- Automation – Context-aware control of lights, temperature, entertainment
+- Personalization – Tailored services based on user routines
+
+---
+
+## Why Supervised Learning?
+
+- Trains on labeled datasets: `[Sensor Input] → [Activity Label]`
+- High accuracy in classification tasks
+- Models can be updated over time with new data
+- Algorithms like KNN, SVM, Decision Trees, Random Forests, or Neural Networks work well
+
+---
+
+## Sample Activities
+
+- Sleeping
+- Cooking
+- Eating
+- Watching TV
+- Bathroom usage
+- Walking inside home
+- Working on computer
+
+---
+
+## Technologies Used
+
+- Python (with scikit-learn / TensorFlow / PyTorch)
+- Pandas, NumPy – Data processing
+- Matplotlib, Seaborn – Visualization
+- IoT sensor datasets – e.g., Motion, Pressure, Temperature
+
+---
+
+## Workflow
+
+1. Data Collection – Load labeled smart home sensor dataset
+2. Preprocessing – Clean, normalize, and transform data
+3. Model Training – Apply and evaluate supervised ML algorithms
+4. Prediction – Test model with unseen sensor data
+5. Automation – Trigger smart home actions based on predictions
+
+---
+
+## Example Dataset
+
+| Motion Sensor | Pressure Sensor | Temperature | Time of Day | Activity     |
+|---------------|------------------|-------------|-------------|--------------|
+| 1             | 0                | 22.4        | Morning      | Cooking      |
+| 0             | 1                | 20.1        | Night        | Sleeping     |
+| 1             | 1                | 23.0        | Evening      | Watching TV  |
+
+---
+
+## Future Scope
+
+- Add deep learning models (e.g., LSTM for time-series activity tracking)
+- Real-time prediction and automation
+- Extend for multi-person environments
+- Integrate with IoT devices for full automation
+
+---
+
+## References
+
+- UCI Smart Home Dataset
+- "Human Activity Recognition Using Smartphones" – Kaggle
+- Research papers on HAR and IoT-based smart homes
+
+---
+
+## Author
+
+- Ash (B.Tech CSE, Data Science Minor)
+
